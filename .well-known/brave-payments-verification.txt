@@ -1,4 +1,4 @@
 This is a Brave Payments publisher verification file.
 
-Domain: kjozwiak.github.io
-Token: 20d88f23089f1290f6948698f732a9f28c869540d9870388064ce7767c2d0b4f
+Domain: kjozwiak.github.io 
+Token: e48276a263755024a48910e89cef0b7d2ea0f10e7067007dc314d9d20e88d660
