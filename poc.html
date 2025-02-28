@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PoC</title>
+    <script>
+        function requestCamera() {
+            window.open("http://google.com");
+            if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+                navigator.mediaDevices.getUserMedia({ video: true })
+                  
+            } else {
+                alert('Camera access is not supported by this browser.');
+            }
+        }
+
+        
+    </script>
+</head>
+<body>
+    <button onclick="requestCamera()">Trigger</button>
+</body>
+</html>
