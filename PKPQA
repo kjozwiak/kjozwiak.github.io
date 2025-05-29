@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Title</title>
+    <script>
+      function openPassInNewTab() {
+        window.open("pass.pkpass");
+      }
+    </script>
+  </head>
+  <body>
+    <ul>
+      <li><a href="" onclick="openPassInNewTab()">Download Pass in new tab</a></li>
+    </ul>
+  </body>
+</html>
